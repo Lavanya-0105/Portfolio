@@ -49,6 +49,4 @@ Contact & Professional Networks
 
 LinkedIn: linkedin.com/in/lavanyamukku
 
-GitHub: github.com/Lavanya-0105
-
 Email: nagalavanyamukku@gmail.com
