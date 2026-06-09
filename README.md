@@ -48,5 +48,7 @@ Want to run this project locally on your machine? Follow these simple steps:
 Contact & Professional Networks
 
 LinkedIn: linkedin.com/in/lavanyamukku
+
 GitHub: github.com/Lavanya-0105
+
 Email: nagalavanyamukku@gmail.com
