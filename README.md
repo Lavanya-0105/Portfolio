@@ -4,7 +4,7 @@ A sleek, minimalist, typography-driven professional portfolio website built to s
 
 ## 🚀 Live Demo
 
-🔗 View Live Demo(https://portfolio-lavanya-projects0105.vercel.app/)
+🔗 [View Live Demo](https://portfolio-lavanya-projects0105.vercel.app/)
 
 ---
 
