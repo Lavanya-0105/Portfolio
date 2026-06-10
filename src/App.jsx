@@ -3,6 +3,7 @@ import { useState } from "react";
 import myResume from "./assets/Mukku_NagaLavanya_Resume.pdf";
 import bistroImg from "./assets/Bistro Delight.avif";
 import profileImg from "./assets/Profile.png";
+import swaggerImg from "./assets/Swagger UI.png";
 export default function PortfolioWebsite() {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -37,10 +38,14 @@ export default function PortfolioWebsite() {
       githubLink: "https://github.com/Lavanya-0105/Food-Delivery.git",
     },
     {
+      id: 2,
       title: "Task Management App",
+      image: swaggerImg,
       description:
-        "Productivity app to manage tasks, deadlines and team collaboration.",
-      tech: ["React", "Node.js", "MongoDB"],
+        "Secure Express/MongoDB REST API featuring strict Role-Based Access Controls (RBAC) and interactive Swagger UI documentation.",
+      tech: ["Node.js", "MongoDB", "Express.js"],
+      liveLink: "https://github.com/Lavanya-0105/Task-management.git",
+      githubLink: "https://github.com/Lavanya-0105/Task-management.git ",
     },
     {
       title: "AI Resume Analyzer",
