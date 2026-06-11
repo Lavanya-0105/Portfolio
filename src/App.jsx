@@ -57,7 +57,7 @@ export default function PortfolioWebsite() {
         "Built a full-stack outfit recommendation platform that generates personalized clothing combinations based on body type, occasion, weather, and color preferences.",
       tech: ["React", "OpenAI API", "Node.js", "Mongodb"],
       liveLink: "https://thread-match.vercel.app/",
-      githubLink: "/public/Threadmatch Project Overview.pdf",
+      githubLink: "https://github.com/Lavanya-0105/ThreadMatch.git",
     },
   ];
 
