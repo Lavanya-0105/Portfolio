@@ -4,6 +4,8 @@ import myResume from "./assets/Mukku_NagaLavanya_Resume.pdf";
 import bistroImg from "./assets/Bistro Delight.avif";
 import profileImg from "./assets/Profile.png";
 import swaggerImg from "./assets/Swagger UI.png";
+import threadmatch from "./assets/ThreadMatch.webp";
+
 export default function PortfolioWebsite() {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -48,10 +50,14 @@ export default function PortfolioWebsite() {
       githubLink: "https://github.com/Lavanya-0105/Task-management.git ",
     },
     {
-      title: "AI Resume Analyzer",
+      id: 3,
+      title: "ThreadMatch",
+      image: threadmatch,
       description:
-        "AI-powered tool that analyzes and improves your resume content.",
-      tech: ["Next.js", "OpenAI API", "Tailwind CSS"],
+        "Built a full-stack outfit recommendation platform that generates personalized clothing combinations based on body type, occasion, weather, and color preferences.",
+      tech: ["React", "OpenAI API", "Node.js", "Mongodb"],
+      liveLink: "https://thread-match.vercel.app/",
+      githubLink: "/public/Threadmatch Project Overview.pdf",
     },
   ];
 
