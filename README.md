@@ -2,7 +2,7 @@
 
 A sleek, minimalist, typography-driven professional portfolio website built to showcase modern full-stack web experiences and software engineering capabilities. Designed with a clean, high-contrast structural aesthetic that eliminates distracting placeholders to let the code and projects speak for themselves.
 
-## 🚀 Live Demo
+## Live Demo
 
 🔗 [View Live Demo](https://portfolio-lavanya-projects0105.vercel.app/)
 

@@ -3,7 +3,7 @@ import { useState } from "react";
 import myResume from "./assets/Mukku_NagaLavanya_Resume.pdf";
 import bistroImg from "./assets/Bistro Delight.avif";
 import profileImg from "./assets/Profile.png";
-import swaggerImg from "./assets/Swagger UI.png";
+import smartscan from "./assets/SmartScan.webp";
 import threadmatch from "./assets/ThreadMatch.webp";
 
 export default function PortfolioWebsite() {
@@ -30,34 +30,35 @@ export default function PortfolioWebsite() {
   const projects = [
     {
       id: 1,
+      title: "SmartScan",
+      image: smartscan,
+      description:
+        "Real-time price comparison across Amazon, Walmart and eBay. Uses a two-phase fetch — Amazon runs first to extract the exact product title, which is then used to search other retailers ensuring same-product comparison, not just keyword matching.",
+      tech: ["React", "TypeScript", "Express", "Redis", "SerpApi"],
+      liveLink: "https://smart-scan-swart.vercel.app/",
+      githubLink: "https://github.com/Lavanya-0105/SmartScan.git ",
+    },
+
+    {
+      id: 2,
+      title: "ThreadMatch",
+      image: threadmatch,
+      description:
+        "AI-powered outfit recommendation app — select your vibe, occasion and wardrobe items, get 3 ranked outfit combinations with styling reasons. Built with a rules-aware LLM that flags occasion mismatches and suggests adaptations.",
+      tech: ["React", "Express", "MongoDB", "Groq API", "JWT"],
+      liveLink: "https://thread-match.vercel.app/",
+      githubLink: "https://github.com/Lavanya-0105/ThreadMatch.git",
+    },
+    {
+      id: 3,
       title: " Bistro Delight",
       description:
-        "A premium food delivery platform inspired by Parisian culinary speed, utilizing component-driven logic to map menus fluidly.",
-      tech: ["React", "Vite", "CSS3"],
+        "Responsive food delivery web app featuring restaurant browsing, menu exploration, cart management and seamless order flow. Built with React and Vite using component-driven architecture and mobile-first design.",
+      tech: ["React", "Vite", "CSS3", "React Router"],
       image: bistroImg,
       liveLink:
         "https://food-delivery-mzgyy4kvi-lavanya-projects0105.vercel.app/", // Put your live link here
       githubLink: "https://github.com/Lavanya-0105/Food-Delivery.git",
-    },
-    {
-      id: 2,
-      title: "Task Management App",
-      image: swaggerImg,
-      description:
-        "Secure Express/MongoDB REST API featuring strict Role-Based Access Controls (RBAC) and interactive Swagger UI documentation.",
-      tech: ["Node.js", "MongoDB", "Express.js"],
-      liveLink: "https://github.com/Lavanya-0105/Task-management.git",
-      githubLink: "https://github.com/Lavanya-0105/Task-management.git ",
-    },
-    {
-      id: 3,
-      title: "ThreadMatch",
-      image: threadmatch,
-      description:
-        "Built a full-stack outfit recommendation platform that generates personalized clothing combinations based on body type, occasion, weather, and color preferences.",
-      tech: ["React", "OpenAI API", "Node.js", "Mongodb"],
-      liveLink: "https://thread-match.vercel.app/",
-      githubLink: "https://github.com/Lavanya-0105/ThreadMatch.git",
     },
   ];
 
